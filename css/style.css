@@ -1,0 +1,17 @@
+.all-thing{
+    display: flex;
+}
+
+select{
+    width: 170px;
+    height: 22px;
+}
+th{
+    border: 1px solid black
+}
+td{
+    border: 1px solid black
+}
+.none{
+    display: none;
+}

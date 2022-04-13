@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>управление сущностями растений</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">управление сущностями растений</h1>
+        <form action="" class="all-thing">
+            <div class="left-side">
+                <div class="label">
+                    <input type="text" id="name">
+                    <label for="name">название</label>
+                </div>
+                <div class="label">
+                    <input type="text" id="text">
+                    <label for="text">описание</label>
+                </div>
+                <div class="selctorr">
+                    <select name="views-select">
+                        <option value="0" selected>тип растения</option>
+                        <option value="водоросли">водоросли</option>
+                        <option value="мхи">мхи</option>
+                        <option value="папоротники">папоротники</option>
+                        <option value="хвойные растения">хвойные растения</option>
+                        <option value="цветковые растения">цветковые растения</option>
+                    </select>
+                </div>
+                <div class="label">
+                    <input type="number" id="age"> 
+                    <label for="age">возраст</label>
+                </div>
+                <div class="label">
+                    <input type="text" id="class">
+                    <label for="class">класс</label>
+                </div>
+            </div>
+            
+           <div class="right-side">
+            <div class="label">
+                <input type="number" id="size">
+                <label for="size">размер соцветия</label>
+            </div>
+            <div class="label">
+                <select name="views-select" class="danger">
+                    <option value="0" selected>класс опасности</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="label">
+                <input type="text" id="habitat"> 
+                <label for="habitat">ареал произрастания</label>
+            </div>
+            <div class="label">
+                <input type="text" id="area">
+                <label for="area">область применения</label>
+            </div>
+            <div class="label">
+                <input type="text" id="first">
+                <label for="first">первооткрыватель</label>
+            </div>
+          
+           </div>
+
+          
+        </form>
+        <button class="button" id="button"> отправить</button>
+        <table>
+            <tr>
+                <th>название</th>
+                <th>описание</th>
+                <th>тип растения</th>
+                <th>возраст</th>
+                <th>класс</th>
+                <th>размер соцветия</th>
+                <th>класс опасности</th>
+                <th>ареал произрастания</th>
+                <th>область применения</th>
+                <th>первооткрыватель</th>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
